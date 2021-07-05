@@ -2,7 +2,7 @@
 
 <h1 align="center">Vagrantfile Gerencianet - PHP</h1>
 
-Este repositório fornece um modelo Vagrantfile para facilitar a criação de uma máquina virtual usando um hipervisor. Após a conclusão da configuração, você terá uma máquina virtual com Ubuntu, preparada para execução de projetos PHP em sua máquina local.
+Este repositório fornece um modelo Vagrantfile para facilitar a criação de uma máquina virtual usando um hipervisor. Pense nisso algo como XAMPP/WAMP que não depende do seu sistema operacional. Após a conclusão da configuração, você terá uma máquina virtual com Ubuntu, preparada para execução de projetos PHP.
 
 
 ## Sobre o Vagrant
@@ -59,7 +59,7 @@ Quando executamos o comando para o Vagrant subir uma VM, ele lê o arquivo [Vagr
 
 Há configuração de pasta compartilhada definida no Vagrantfile, criando no diretório do vagrant a pasta ``www_gn``. Diretório este, que é mapeado a pasta raiz do Apache, permitindo implementar seu projeto nesta pasta.
 
-O direcionamento de portas do Vagrant, permitem que você acesse uma porta em sua máquina host e tenha todos os dados encaminhados para uma porta na máquina convidada, seja por TCP ou UDP. Com esta configuração, você pode então abrir seu navegador ``http://localhost:8080`` e navegar no seu proejeto.
+O direcionamento de portas do Vagrant, permitem que você acesse uma porta em sua máquina host e tenha todos os dados encaminhados para uma porta na máquina convidada, seja por TCP ou UDP. Com esta configuração, você pode então abrir seu navegador http://localhost:8080 e navegar no seu proejeto.
 ``` 
 config.vm.network "forwarded_port", guest: 80, host: 8080
 config.vm.synced_folder ".", "/vagrant", type: "virtualbox", owner: "www-data", group: "www-data"
