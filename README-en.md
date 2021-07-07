@@ -11,6 +11,16 @@
 
 This repository provides a Vagrantfile template to facilitate creating a virtual machine using a hypervisor. Think of it something like XAMPP/WAMP that doesn't depend on your operating system. After completing the configuration, you will have a virtual machine with Ubuntu, ready to run PHP projects.
 
+Jump To:
+* [About Vagrant](#about-vagrant)
+* [How it works?](#how-it-works)
+* [Simplified setup](#simplified-setup)
+* [Folder sharing and port forwarding](#folder-sharing-and-port-forwarding)
+* [VM Setup and tools](#vm-setup-and-tools)
+* [Useful commands](#useful-commands)
+
+---
+
 ## About Vagrant
 
 The [Vagrant](https://www.vagrantup.com/) is a great tool for creating and configuring lightweight, reproducible and portable virtual machine environments.
