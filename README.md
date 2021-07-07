@@ -11,6 +11,15 @@
 
 Este repositório fornece um modelo Vagrantfile para facilitar a criação de uma máquina virtual usando um hipervisor. Pense nisso algo como XAMPP/WAMP que não depende do seu sistema operacional. Após a conclusão da configuração, você terá uma máquina virtual com Ubuntu, preparada para execução de projetos PHP.
 
+Ir para:
+* [Sobre o Vagrant](#sobre-o-vagrant)
+* [Como funciona?](#como-funciona)
+* [Configuração simplificada](#configuração-simplificada)
+* [Compartilhamento de pasta e direcionamento de porta](#compartilhamento-de-pasta-e-direcionamento-de-porta)
+* [VM Setup e ferramentas](#vm-setup-e-ferramentas)
+* [Comandos úteis](#comandos-úteis)
+
+---
 
 ## Sobre o Vagrant
 
@@ -74,7 +83,7 @@ config.vm.network "forwarded_port", guest: 80, host: 8080
 config.vm.synced_folder ".", "/vagrant", type: "virtualbox", owner: "www-data", group: "www-data"
 ```
 
-## VM Setup e ferramentas
+## VM setup e ferramentas
 
 O seguinte setup e ferramentas serão configurados automaticamente ao iniciar a VM.
 * Ubuntu v20.04
