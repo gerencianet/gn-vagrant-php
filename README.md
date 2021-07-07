@@ -4,7 +4,7 @@
 
 <p align="center">
   <span><b>Português</b></span> |
-  <a href="https://github.com/gerencianet/gn-vagrant-php/blob/master/README-en.md">Inglês</a>
+  <a href="https://github.com/gerencianet/gn-vagrant-php/blob/main/README-en.md">Inglês</a>
 </p>
 
 ---
