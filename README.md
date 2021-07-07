@@ -52,6 +52,8 @@ Quando executamos o comando para o Vagrant subir uma VM, ele lê o arquivo [Vagr
     Parece que não usamos o VirtualBox para nada. Mas, abrindo o aplicativo VirtualBox você verá que a VM está executando.
 
     Como você pode ver, o VirtualBox está nos informando que o Ubuntu está funcionando corretamente.
+    
+    ![VM no VirtualBox](https://gnetbr.com/Bkl9PuH7pO)
 
  4. Acesso SSH   
 
