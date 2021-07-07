@@ -1,6 +1,13 @@
+<h1 align="center">Vagrantfile Gerencianet - PHP</h1>
+
 ![Curso de integração Gerencianet](https://media-exp1.licdn.com/dms/image/C4D1BAQH9taNIaZyh_Q/company-background_10000/0/1603126623964?e=2159024400&v=beta&t=coQC_AK70vTYL3NdvbeIaeYts8nKumNHjvvIGCmq5XA)
 
-<h1 align="center">Vagrantfile Gerencianet - PHP</h1>
+<p align="center">
+  <span><b>Português</b></span> |
+  <a href="https://github.com/gerencianet/gn-vagrant-php/blob/master/README-en.md">Inglês</a>
+</p>
+
+---
 
 Este repositório fornece um modelo Vagrantfile para facilitar a criação de uma máquina virtual usando um hipervisor. Pense nisso algo como XAMPP/WAMP que não depende do seu sistema operacional. Após a conclusão da configuração, você terá uma máquina virtual com Ubuntu, preparada para execução de projetos PHP.
 
