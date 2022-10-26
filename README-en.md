@@ -38,6 +38,7 @@ When we run the command for Vagrant to upload a VM, it reads the [Vagrantfile](h
 1. Install dependencies according to your operating system
     
 * Go to the [VirtualBox](https://www.virtualbox.org/) [download page](https://www.virtualbox.org/wiki/Downloads), choose your operating system, download and install the software.
+  * Virtualization support must be enabled in your motherboard BIOS (setting may vary depending on your motherboard model).
 * Go to the [Vagrant](https://www.vagrantup.com/downloads) [download page](https://www.vagrantup.com/downloads), choose your operating system, download and install the software.
 
 2. Clone this project and access the directory
