@@ -36,6 +36,7 @@ Quando executamos o comando para o Vagrant subir uma VM, ele lê o arquivo [Vagr
 1. Instale dependências de acordo com seu sistema operacional
     
 * Acesse a [página de download](https://www.virtualbox.org/wiki/Downloads) do [VirtualBox](https://www.virtualbox.org/), escolha seu sistema operacional, baixe e instale o software.
+  * O suporte à virtualização deve estar ativado na BIOS da sua placa-mãe (a configuração pode variar de acordo com cada modelo).
 * Acesse a [página de download](https://www.vagrantup.com/downloads) do [Vagrant](https://www.vagrantup.com/), escolha o seu sistema operacional, baixe e instale o software.
 
 2. Clone este projeto e acesse o diretório
