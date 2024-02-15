@@ -1,6 +1,6 @@
-<h1 align="center">Vagrantfile Gerencianet - PHP</h1>
+<h2 align="center"><a href='https://github.com/efipay/vagrant-php-efi'>Acesse aqui o novo repositório Vagrantfile Efí</a></h2>
 
-![Curso de integração Gerencianet](https://media-exp1.licdn.com/dms/image/C4D1BAQH9taNIaZyh_Q/company-background_10000/0/1603126623964?e=2159024400&v=beta&t=coQC_AK70vTYL3NdvbeIaeYts8nKumNHjvvIGCmq5XA)
+![Gerencianet agora é Efí](https://sejaefi.link/rylucSCXT3)
 
 <p align="center">
   <span><b>Português</b></span> |
